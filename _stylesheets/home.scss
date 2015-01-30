@@ -1,0 +1,25 @@
+/* Imports */
+@import "variables.scss";
+
+.figures{
+  background: url(../images/hero-home.png) no-repeat bottom center $color-dark;
+  background-size: 1350px;
+}
+
+.screen-shot{
+  background: url(http://upload.wikimedia.org/wikipedia/commons/b/b7/Archimedes_lever.png) no-repeat center;
+  background-size: contain;
+  padding-bottom: 300px;
+}
+
+.workbook{
+  background: url(../images/screen-shot.png) no-repeat 0px 25px lighten($mono-light, 5%);
+  background-size: contain;
+  padding-bottom: 270px;
+}
+
+.downloads{
+  background: url(../images/project_logos.png) no-repeat right;
+  background-size: contain;
+  padding-bottom: 300px;
+}

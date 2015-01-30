@@ -1,0 +1,30 @@
+# For Atom Feed
+domain: training.github.com
+author: Andrew Mutz
+email: andrew.mutz@appfolio.com
+title: CS290
+
+# standard jekyll configuration
+
+permalink: /articles/:title
+pygments: true
+exclude:
+- bin
+- config.rb
+- Gemfile
+- Gemfile.lock
+- gems
+- Procfile
+- Rakefile
+- README.md
+- script
+- vendor
+
+include:
+- _stylesheets
+- _javascript
+
+markdown: rdiscount
+
+# Custom site configuration
+lang: en
